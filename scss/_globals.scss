@@ -1,0 +1,46 @@
+@import './variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+a, a:hover, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: $lightGrayishCyan;
+    font-family: $primaryFont;
+    main {
+        background-color: $white;
+    }
+}
+
+.flex {
+    display: flex;
+    .j-c-sb {
+        justify-content: space-between;
+    }
+}
+
+.grid {
+    display: grid;
+}
+
+input[type=number]:hover {
+    cursor: pointer;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}

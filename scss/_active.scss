@@ -1,0 +1,7 @@
+@import './variables';
+
+#bill-amount, #no-of-people {
+    input[type=number]:focus {
+        border: 2px $primaryStrongCyan solid;
+    }                
+}
