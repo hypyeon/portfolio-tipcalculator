@@ -184,8 +184,6 @@ reset.addEventListener('click', () => {
 
     tipAmount.innerHTML = '$0.00'; 
     totalAmount.innerHTML = '$0.00';
-
 });
-
 
 
